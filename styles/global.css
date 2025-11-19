@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@font-face {
+    font-family: "NomeDaMinhaFonte";
+    src: url("../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf"),
+        url("../assets/fonts/Montserrat/static/Montserrat-ExtraLight.ttf");
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 html {
